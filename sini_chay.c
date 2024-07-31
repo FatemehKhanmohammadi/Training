@@ -1,4 +1,4 @@
-// Sini chay
+/* This program tries to solve sini_chai problem */
 #include<stdio.h>
 int main(){
     int n, m, t;
