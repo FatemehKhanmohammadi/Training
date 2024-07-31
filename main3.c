@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<math.h>
 int main(){
     int x, y, sum = 0, i = 0, a = 0, b = 0, j = 0 , t = 0, q = 0; 
     printf("Enter the first number:");
@@ -14,7 +15,7 @@ int main(){
         else if(t > 1){
             t = t - 1;
         } 
-        a = a + (t * 10^(i));
+        a = a + t * pow(10,i);
         x = x/10;
         i = i+1;
     }
@@ -31,7 +32,7 @@ int main(){
         else if(q > 1){
             q = q - 1;
         }
-        b = b + q * 10^j;
+        b = b + q * pow(10,j);
         y = y/10;
         j = j+1;
     } 
